@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <!-- <link rel="stylesheet" href="../sidenav.css"> -->
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;700&family=Lobster&display=swap"
+    rel="stylesheet" />
+  <!-- Load font awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>UnderWater - BK, NY</title>
+</head>
+
+<body>
+  <main>
+
+     <!-- The social media icon bar -->
+     <div class="icon-bar">
+      <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+      <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+      <a href="#" class="google"><i class="fa fa-google"></i></a>
+      <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
+      <a href="#" class="youtube"><i class="fa fa-youtube"></i></a>
+    </div>
+
+    <div class="landing">
+      <nav>
+        <h1 id="logo">Underwater</h1>
+        <ul class="nav-links">
+          <li onclick="changeTab('home')">Home</li>
+          <li onclick="changeTab('designs')">Designs</li>
+          <li onclick="changeTab('about')">About</li>
+        </ul>
+      </nav>
+
+      <div id="home" class="allTabs">
+        <h2 class="big-text">UnderWater</h2>
+      </div>
+
+      <div id="designs" class="allTabs">
+        <h2 class="big-text">Designs Here</h2>
+      </div>
+
+      <div id="about" class="allTabs">
+        <h2 class="big-text">EST 1992</h2>
+      </div>
+
+    </div>
+  </main>
+
+  <div class="intro">
+    <div class="intro-text">
+      <h1 class="hide">
+        <span class="text">Underwater Lifestyle</span>
+      </h1>
+      <h1 class="hide">
+        <span class="text">Art, Apparel, and more</span>
+      </h1>
+      <h1 class="hide">
+        <span class="text">Coming Soon.</span>
+      </h1>
+    </div>
+  </div>
+  <div class="slider"></div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ=="
+    crossorigin="anonymous"></script>
+  <script src="./app.js"></script>
+</body>
+
+</html>
